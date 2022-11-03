@@ -1,2 +1,7 @@
-# millco_context
-VSCode extension to add a Save As option to the editor context menu
+# Save From Context Menu
+
+Lifted wholesale from 
+
+https://stackoverflow.com/questions/66841395/add-a-save-item-to-vscode-editor-context-menu
+
+###### 💾

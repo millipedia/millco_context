@@ -1,0 +1,46 @@
+{
+    "name": "millco_context",
+    "displayName": "millco_context",
+	"description": "Adds Save and Save As to the editor context menu",
+	"icon": "images/icon.png",
+	"version": "0.0.1",
+	"publisher": "millipedia",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "license": "MIT License",
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "main": "./extension.js",
+    "contributes": {
+        "menus": {
+            "editor/context": [
+                {
+                    "command": "workbench.action.files.save",
+                    "group": "9_cutcopypaste",
+                    "when": "editorTextFocus"
+                },
+                {
+                    "command": "workbench.action.files.saveAs",
+                    "group": "9_cutcopypaste",
+                    "when": "editorTextFocus"
+                }
+            ]
+        },
+        "commands": [
+            {
+                "command": "workbench.action.files.save",
+                "title": "Save"
+             },{
+				"command": "workbench.action.files.saveAs",
+				"title": "Save As"
+			}
+        ]
+    },
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "__metadata": {}
+}
