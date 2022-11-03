@@ -1,6 +1,6 @@
 {
     "name": "millco_context",
-    "displayName": "millco_context",
+    "displayName": "Millco Context",
     "description": "Adds Save and Save As to the editor context menu",
     "icon": "images/icon.png",
     "version": "0.0.1",
