@@ -7,7 +7,7 @@
 	"publisher": "millipedia",
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/millipedia/millco_context"
     },
     "license": "MIT License",
     "engines": {
