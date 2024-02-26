@@ -8,5 +8,6 @@ https://stackoverflow.com/questions/66841395/add-a-save-item-to-vscode-editor-co
 
 and then tweaked to include Save As.
 
+To install you just clone / save this into a folder ''millco_context'' in your VSCode extensions directory (usually /users/home/[username]/.vscode/extensions )
 
 ###### 
